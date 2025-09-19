@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Marcin Grzejszczak
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Marcin
+last_name: Grzejszczak
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,35 +23,30 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Senior Developer / Author / Mentor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: HeroDevs
+    url: https://herodevs.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:contact@toomuchcoding.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/mgrzejszczak
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/marcingrzejszczak
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://www.linkedin.com/in/👾-marcin-grzejszczak-15565119/
+  
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Observability
+  - Microservices
+  - Testing
 
 education:
   - area: PhD Computer Science (AI Focus)
@@ -166,4 +161,8 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Java Champion, founder of [iurista.org](https://iurista.org), co-author of [SmartTesting](smarttesting.pl), author of video courses and trainings. Testing books author.
+
+Maintainer of cloud, observability and testing related open source projects (Spring Cloud, Micrometer).
+
+Within the last decade, he’s given more than 150 presentations and workshops (whole list available at the [toomuchcoding.com blog](https://toomuchcoding.com)).
