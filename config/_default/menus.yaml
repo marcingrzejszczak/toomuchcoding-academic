@@ -14,7 +14,7 @@ main:
     url: /publication
     weight: 12
   - name: Talks
-    url: /talks
+    url: /event
     weight: 13
   - name: Projects
     url: projects/
