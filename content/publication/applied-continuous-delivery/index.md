@@ -2,8 +2,8 @@
 title: Applied Continuous Delivery
 authors:
 - admin
-date: '2019-01-01T00:00:00Z'
-publishDate: '2025-09-20T00:00:00Z'
+date: '2017-10-01T00:00:00Z'
+publishDate: '2017-10-01T00:00:00Z'
 publication_types:
 - document
 publication: Video course

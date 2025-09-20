@@ -2,11 +2,11 @@
 title: Microservices with Spring Cloud
 authors:
 - admin
-date: '2019-01-01T00:00:00Z'
-publishDate: '2025-09-20T00:00:00Z'
+date: '2021-03-12T00:00:00Z'
+publishDate: '2021-03-12T00:00:00Z'
 publication_types:
 - document
-publication: Video course
+publication: Workshop
 abstract: ''
 summary: ''
 tags:

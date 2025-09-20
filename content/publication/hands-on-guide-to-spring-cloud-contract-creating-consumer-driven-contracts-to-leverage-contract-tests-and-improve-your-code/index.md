@@ -3,8 +3,8 @@ title: 'Hands-On Guide to Spring Cloud Contract: Creating Consumer-Driven Contra
   to Leverage Contract Tests and Improve Your Code'
 authors:
 - admin
-date: '2019-01-01T00:00:00Z'
-publishDate: '2025-09-20T00:00:00Z'
+date: '2021-03-01T00:00:00Z'
+publishDate: '2021-03-01T00:00:00Z'
 publication_types:
 - document
 publication: Video course

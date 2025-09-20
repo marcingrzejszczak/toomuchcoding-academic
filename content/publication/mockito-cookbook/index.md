@@ -2,8 +2,8 @@
 title: Mockito Cookbook
 authors:
 - admin
-date: '2014-01-01T00:00:00Z'
-publishDate: '2025-09-20T00:00:00Z'
+date: '2014-06-24T00:00:00Z'
+publishDate: '2014-06-24T00:00:00Z'
 publication_types:
 - book
 publication: Packt Publishing
@@ -14,9 +14,9 @@ tags:
 featured: false
 links:
 - type: source
-  url: https://www.packtpub.com/application-development/mockito-cookbook
+  url: https://www.packtpub.com/en-us/product/mockito-cookbook-9781783982752
 projects: []
 slides: ''
 ---
 
-Publisher page: <https://www.packtpub.com/application-development/mockito-cookbook>
+Publisher page: <https://www.packtpub.com/en-us/product/mockito-cookbook-9781783982752>

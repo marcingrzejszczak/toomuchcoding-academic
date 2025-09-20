@@ -2,8 +2,8 @@
 title: How Contract Tests Improve the Quality of Your Distributed Systems
 authors:
 - admin
-date: '2020-01-01T00:00:00Z'
-publishDate: '2025-09-20T00:00:00Z'
+date: '2018-07-29T00:00:00Z'
+publishDate: '2018-07-29T00:00:00Z'
 publication_types:
 - article
 publication: ''
