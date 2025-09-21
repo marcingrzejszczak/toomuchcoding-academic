@@ -6,12 +6,12 @@ image:
   filename: featured.png
 ---
 
-Hands-on, practical learning tailored to your team.
+Hands-on, practical learning tailored to your team. I can also do a keynote at your company's event.
 
 **Popular topics**
-- CI/CD speed & reliability
-- Microservices & platform fundamentals
-- IDP workflows & developer experience
+- CI/CD speed and reliability
+- Microservices and platform fundamentals
+- IDP workflows and developer experience
 - Testing strategies across the stack
 - Observability, tracing, and incident response
 
