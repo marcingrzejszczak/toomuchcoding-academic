@@ -10,11 +10,11 @@ sections:
   - block: collection
     content:
       title: All talks
-      count: 25
+      count: 0
       filters:
         folders: [talks]
       sort_by: Date
       sort_ascending: false
     design:
-      view: date-title-summary
+      view: citation
 ---
