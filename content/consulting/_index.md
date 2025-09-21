@@ -75,6 +75,15 @@ sections:
       text: |
         <!-- Stacked cards, full width of the content area -->
         <div class="not-prose max-w-none space-y-6">
+          <!-- Email -->
+          <article class="hb-card overflow-hidden">
+            <div class="p-6">
+              <h3 class="text-lg font-bold mb-2">Email</h3>
+              <p class="opacity-80 mb-4">Prefer async? Send details and I’ll reply shortly.</p>
+              <a href="mailto:contact@toomuchcoding.com"
+                 class="hb-btn hb-btn-dark text-base px-4 py-2">contact@toomuchcoding.com</a>
+            </div>
+          </article>
           <!-- Calendly -->
           <article class="hb-card overflow-hidden">
             <div class="p-6">
@@ -89,15 +98,6 @@ sections:
                      style="min-width:320px;height:600px;"></div>
                 <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
               </div>
-            </div>
-          </article>
-          <!-- Email -->
-          <article class="hb-card overflow-hidden">
-            <div class="p-6">
-              <h3 class="text-lg font-bold mb-2">Email</h3>
-              <p class="opacity-80 mb-4">Prefer async? Send details and I’ll reply shortly.</p>
-              <a href="mailto:contact@toomuchcoding.com"
-                 class="hb-btn hb-btn-dark text-base px-4 py-2">contact@toomuchcoding.com</a>
             </div>
           </article>
         </div>

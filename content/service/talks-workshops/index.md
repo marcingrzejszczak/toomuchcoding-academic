@@ -15,5 +15,5 @@ Hands-on, practical learning tailored to your team.
 - Testing strategies across the stack
 - Observability, tracing, and incident response
 
-**Next step**  
-<a href="mailto:contact@toomuchcoding.com" class="hb-btn hb-btn-dark text-base px-4 py-2">Email to discuss</a>
+**Pricing**: to be discussed over email or call.  
+Use [this link](https://calendly.com/marcin-grzejszczak/free-consultation) to schedule a discovery call or [drop me a line via email](mailto:contact@toomuchcoding.com)
