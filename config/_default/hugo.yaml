@@ -37,6 +37,9 @@ disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
+  RSS:
+    mediatype: "application/rss"
+    baseName: "atom"
 imaging:
   resampleFilter: lanczos
   quality: 90

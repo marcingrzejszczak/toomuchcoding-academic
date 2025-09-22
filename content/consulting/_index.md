@@ -34,74 +34,71 @@ sections:
       view: article-grid
       fill_image: true
       columns: 2
-
+      
   - block: markdown
     content:
       title: What clients say
       text: |
         <div class="not-prose max-w-none">
-          <style>
-            .tms-carousel{position:relative;overflow:hidden}
-            .tms-track{display:flex;transition:transform .45s ease;will-change:transform}
-            .tms-slide{flex:0 0 100%;padding:0 .5rem;box-sizing:border-box}
-            @media(min-width:768px){.tms-slide{flex-basis:50%}}
-            @media(min-width:1200px){.tms-slide{flex-basis:45%}}
-            .tms-nav{display:none}
-            #tms-s1:checked~.tms-viewport .tms-track{transform:translateX(0)}
-            #tms-s2:checked~.tms-viewport .tms-track{transform:translateX(-100%)}
-            #tms-s3:checked~.tms-viewport .tms-track{transform:translateX(-200%)}
-            #tms-s4:checked~.tms-viewport .tms-track{transform:translateX(-300%)}
-            .tms-dots{display:flex;gap:.4rem;justify-content:center;margin-top:.25rem}
-            .tms-dot{width:.6rem;height:.6rem;border-radius:9999px;border:1px solid var(--hb-border,#e5e7eb);display:inline-block}
-            #tms-s1:checked~.tms-dots label[for=tms-s1] .tms-dot,
-            #tms-s2:checked~.tms-dots label[for=tms-s2] .tms-dot,
-            #tms-s3:checked~.tms-dots label[for=tms-s3] .tms-dot,
-            #tms-s4:checked~.tms-dots label[for=tms-s4] .tms-dot{background:currentColor}
-          </style>
-          <div class="tms-carousel">
-            <input class="tms-nav" type="radio" name="tms" id="tms-s1" checked>
-            <input class="tms-nav" type="radio" name="tms" id="tms-s2">
-            <input class="tms-nav" type="radio" name="tms" id="tms-s3">
-            <input class="tms-nav" type="radio" name="tms" id="tms-s4">
-            <div class="tms-viewport">
-              <div class="tms-track">
-                <div class="tms-slide">
-                  <div class="hb-card p-6 h-full flex flex-col items-center text-center">
-                    <img src="/images/testimonials/enis.jpg" alt="Enis Halilaj" class="w-16 h-16 rounded-full object-cover mb-3">
-                    <p class="text-lg mb-2">“Thank you for the insightful conversation and valuable advice!”</p>
-                    <div class="opacity-70">— Enis Halilaj, Software Developer @ Evonem</div>
-                  </div>
-                </div>
-                <div class="tms-slide">
-                  <div class="hb-card p-6 h-full flex flex-col items-center text-center">
-                    <img src="/images/testimonials/mikiyas.jpg" alt="Mikiyas Eshetu" class="w-16 h-16 rounded-full object-cover mb-3">
-                    <p class="text-lg mb-2">“We laid out a plan that fits both the topics I want to explore and the way I like to learn. While working on my first sprint, one challenge has already made me rethink how I approach modularity and domain boundaries in Spring apps.”</p>
-                    <div class="opacity-70">— Mikiyas Eshetu, Software Developer</div>
-                  </div>
-                </div>
-                <div class="tms-slide">
-                  <div class="hb-card p-6 h-full flex flex-col items-center text-center">
-                    <img src="/images/testimonials/chris.jpg" alt="CTO, StartLab" class="w-16 h-16 rounded-full object-cover mb-3">
-                    <p class="text-lg mb-2">“The conversation with Marcin Grzejszczak was a blast, as always! We spoke about Event Mesh (...). Marcin, as an expert in contract testing, and building microservices, picked up on the topic right away, and sold me on some very interesting ideas! I highly recommend Marcin's consultations, including paid ones. Grab them while they're around!”</p>
-                    <div class="opacity-70">— Chris Suszyński, Senior Developer @ Red Hat</div>
-                  </div>
-                </div>
-                <div class="tms-slide">
-                  <div class="hb-card p-6 h-full flex flex-col items-center text-center">
-                    <img src="/images/testimonials/mikolaj.png" alt="SRE Lead, FlowOps" class="w-16 h-16 rounded-full object-cover mb-3">
-                    <p class="text-lg mb-2">“Today, I had the great pleasure of consulting with Marcin Grzejszczak. I expected to receive a huge dose of knowledge about architecture and Spring, but what struck me most was his extraordinary kindness and lack of any barriers.”</p>
-                    <div class="opacity-70">— Mikołaj Telus, Java Developer</div>
-                  </div>
-                </div>
+          <style>.tms-wrap{position:relative}.tms-track{display:flex;gap:1.5rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.5rem;scroll-behavior:smooth}.tms-slide{flex:0 0 99%;scroll-snap-align:center}.tms-card{max-width:48rem;margin:0 auto}.tms-arrows{display:flex;justify-content:center;gap:.75rem;margin-top:.5rem}</style>
+          <div class="tms-wrap">
+            <div id="tms-track" class="tms-track">
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/enis.jpg" alt="Enis Halilaj" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“Thank you for the insightful conversation and valuable advice!”</p>
+                  <div class="opacity-70">— Enis Halilaj, Software Developer @ Evonem</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/mikiyas.jpg" alt="Mikiyas Eshetu" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“We laid out a plan that fits both the topics I want to explore and the way I like to learn. While working on my first sprint, one challenge has already made me rethink how I approach modularity and domain boundaries in Spring apps.”</p>
+                  <div class="opacity-70">— Mikiyas Eshetu, Software Developer</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/chris.jpg" alt="Chris Suszyński" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“The conversation with Marcin Grzejszczak was a blast, as always! We spoke about Event Mesh (...). Marcin picked up on the topic right away and sold me on some very interesting ideas! I highly recommend Marcin's consultations.”</p>
+                  <div class="opacity-70">— Chris Suszyński, Senior Developer @ Red Hat</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/mikolaj.png" alt="Mikołaj Telus" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“I expected to receive a huge dose of knowledge about architecture and Spring, but what struck me most was his extraordinary kindness and lack of any barriers.”</p>
+                  <div class="opacity-70">— Mikołaj Telus, Java Developer</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/emanuel.jpg" alt="Emanuel Trandafir" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“Had a great chat today with Marcin Grzejszczak — if you have a chance for conversations like this, take it. Totally worth it!”</p>
+                  <div class="opacity-70">— Emanuel Trandafir, Senior Java Developer</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/kamil.jpg" alt="Kamil Trepczyński" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“After years in leadership, I felt my tech edge fading. Rebuilding with Marcin’s mentorship — highly recommended.”</p>
+                  <div class="opacity-70">— Kamil Trepczyński, Development Team Lead @ GFT Group</div>
+                </article>
+              </div>
+              <div class="tms-slide">
+                <article class="hb-card p-6 text-center tms-card">
+                  <img src="/images/testimonials/bartlomiej.jpg" alt="Bartłomiej Kalka" class="w-16 h-16 rounded-full object-cover mx-auto mb-3">
+                  <p class="text-lg mb-2">“I just had a great conversation with Marcin Grzejszczak, and I highly recommend such a consultation. Marcin answered my current questions about career building, development as a programmer, and the IT industry in general, including Spring. If you have the opportunity, it's worth taking advantage of his knowledge :)”</p>
+                  <div class="opacity-70">— Bartłomiej Kalka, SoftwareEngineer@GetInt.io & Mentor@JavaReady.pl</div>
+                </article>
               </div>
             </div>
-            <div class="tms-dots">
-              <label for="tms-s1"><span class="tms-dot"></span></label>
-              <label for="tms-s2"><span class="tms-dot"></span></label>
-              <label for="tms-s3"><span class="tms-dot"></span></label>
-              <label for="tms-s4"><span class="tms-dot"></span></label>
+            <div class="tms-arrows">
+              <button id="tms-prev" class="hb-btn hb-btn-dark text-base px-4 py-2" type="button">‹ Prev</button>
+              <button id="tms-next" class="hb-btn hb-btn-dark text-base px-4 py-2" type="button">Next ›</button>
             </div>
           </div>
+          <script>(function(){const t=document.getElementById('tms-track');if(!t)return;const prev=document.getElementById('tms-prev');const next=document.getElementById('tms-next');function step(dir){const w=t.clientWidth;const gap=parseFloat(getComputedStyle(t).columnGap||getComputedStyle(t).gap)||24;const amount=Math.max(200,Math.floor(w*0.9)+gap);t.scrollBy({left:dir*amount,behavior:'smooth'});}prev&&prev.addEventListener('click',()=>step(-1));next&&next.addEventListener('click',()=>step(1));})();</script>
         </div>
     design:
       background:
