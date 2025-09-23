@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: OSS Maintainer / Author / Mentor
+role: OSS / Author / Mentor / Consultant
 
 # Social network links
 # Need to use Developeranother icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -39,7 +39,8 @@ profiles:
     url: https://www.linkedin.com/in/👾-marcin-grzejszczak-15565119/
   - icon: brands/bluesky
     url: https://bsky.app/profile/toomuchcoding.com
-    
+  - icon: brands/mastodon
+    url: https://fosstodon.org/@toomuchcoding
   
 interests:
   - Observability
@@ -47,8 +48,8 @@ interests:
   - Testing
 ---
 
-Java Champion, founder of [iurista.org](https://iurista.org), co-author of [SmartTesting](smarttesting.pl), author of [video courses and trainings](https://www.oreilly.com/search/?q=author%3A%22Marcin%20Grzejszczak%22&rows=100). [Testing books](https://www.amazon.com/s?k=marcin%20grzejszczak) author.
+Java Champion, founder of [iurista.org](https://iurista.org), co-author of [SmartTesting](smarttesting.pl), author of [video courses and trainings](/publication). [Testing books](https://www.amazon.com/s?k=marcin%20grzejszczak) author. [Consultant and mentor](/consulting).
 
-Maintainer of cloud, observability and testing related open source projects ([Spring Cloud](https://github.com/spring-cloud/), [Micrometer](https://github.com/micrometer-metrics/)).
+Maintainer of cloud, observability and testing related open source [projects](/projects) ([Spring Cloud](https://github.com/spring-cloud/), [Micrometer](https://github.com/micrometer-metrics/)).
 
-Within the last decade, he’s given more than 150 presentations and workshops.
+Within the last decade, he’s given more than 150 [presentations and workshops](/talks).
