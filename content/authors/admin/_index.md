@@ -50,6 +50,6 @@ interests:
 
 Java Champion, founder of [iurista.org](https://iurista.org), co-author of [SmartTesting](smarttesting.pl), author of [video courses and trainings](/publication). [Testing books](https://www.amazon.com/s?k=marcin%20grzejszczak) author. [Consultant and mentor](/consulting).
 
-Maintainer of cloud, observability and testing related open source [projects](/projects) ([Spring Cloud](https://github.com/spring-cloud/), [Micrometer](https://github.com/micrometer-metrics/)).
+Maintainer of cloud, observability and testing related open source [projects](/projects) ([ex-member of Spring Cloud](https://github.com/spring-cloud/), [ex-member of Micrometer](https://github.com/micrometer-metrics/)).
 
 Within the last decade, he’s given more than 150 [presentations and workshops](/talks).
